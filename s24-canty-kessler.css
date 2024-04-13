@@ -1,0 +1,1351 @@
+.s24-canty-kessler-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.s24-canty-kessler-content {
+  gap: 32px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.s24-canty-kessler-nav-bar {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: flex-end;
+}
+.s24-canty-kessler-rectangle1 {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 80px;
+  position: absolute;
+}
+.s24-canty-kessler-group3 {
+  top: 28px;
+  right: 75px;
+  width: 358px;
+  height: 24px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.s24-canty-kessler-text {
+  color: rgb(255, 255, 255);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s24-canty-kessler-text001 {
+  left: 91px;
+  color: rgb(255, 255, 255);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s24-canty-kessler-text002 {
+  top: 0px;
+  color: rgb(255, 255, 255);
+  right: 7px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s24-canty-kessler-text006 {
+  top: 0px;
+  left: 189px;
+  color: rgb(255, 255, 255);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s24-canty-kessler-group1 {
+  top: 15px;
+  left: 50px;
+  width: 486px;
+  height: 62px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 1;
+  justify-content: center;
+}
+.s24-canty-kessler-ellipse1 {
+  top: -28px;
+  left: -28px;
+  width: 106px;
+  height: 103px;
+  position: absolute;
+}
+.s24-canty-kessler-text009 {
+  top: 9px;
+  left: 82px;
+  color: rgb(255, 255, 255);
+  height: auto;
+  position: absolute;
+  font-size: 26px;
+  font-style: italic;
+  text-align: left;
+  font-family: "Fira Sans";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s24-canty-kessler-content1 {
+  gap: 80px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+}
+.s24-canty-kessler-main-content {
+  gap: 32px;
+  display: flex;
+  align-items: flex-start;
+}
+.s24-canty-kessler-content2 {
+  gap: 32px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.s24-canty-kessler-oarticle {
+  gap: 32px;
+  width: 800px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.s24-canty-kessler-blog-info {
+  gap: 20px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.s24-canty-kessler-heading {
+  gap: 16px;
+  width: 800px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.s24-canty-kessler-text010 {
+  color: rgb(24, 26, 42);
+  height: auto;
+  font-size: 36px;
+  align-self: stretch;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: "Work Sans";
+  font-weight: 600;
+  line-height: 40px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s24-canty-kessler-short-info {
+  gap: 24px;
+  display: flex;
+  align-items: center;
+}
+.s24-canty-kessler-aauthor {
+  gap: 8px;
+  display: flex;
+  align-items: center;
+}
+.s24-canty-kessler-image {
+  width: 28px;
+  height: 28px;
+  border-radius: 28px;
+}
+.s24-canty-kessler-text011 {
+  color: rgb(42, 44, 61);
+  height: auto;
+  font-size: 14px;
+  font-style: normal;
+  text-align: left;
+  font-family: "Work Sans";
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text012 {
+  color: rgb(105, 106, 117);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Work Sans";
+  font-weight: 400;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s24-canty-kessler-image1 {
+  width: auto;
+  height: 462px;
+  align-self: stretch;
+  border-radius: 12px;
+}
+.s24-canty-kessler-para {
+  gap: 10px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.s24-canty-kessler-para1 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.s24-canty-kessler-text013 {
+  color: rgb(59, 60, 74);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  text-align: left;
+  line-height: 32px;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-para2 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.s24-canty-kessler-text016 {
+  color: rgb(59, 60, 74);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  text-align: left;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text018 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text020 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text022 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text024 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text026 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text028 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text030 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text032 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text034 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text036 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text038 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text040 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text042 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text044 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text046 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text048 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text050 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text052 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text054 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text056 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text058 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text060 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text062 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text064 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text066 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text068 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text070 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text072 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text074 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text076 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text078 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text080 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text082 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text084 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text086 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text088 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text090 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text092 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text094 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text096 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text098 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text100 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text102 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text104 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text106 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text108 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text110 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text112 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text114 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text116 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text118 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text120 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text122 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text124 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text126 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text128 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text130 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text132 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text134 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text136 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text138 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text140 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text142 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text144 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text146 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text148 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text150 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text152 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text154 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text156 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text158 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text160 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text162 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text164 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text166 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text168 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text170 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text172 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text174 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text176 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text178 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text180 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text182 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text184 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text186 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text188 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text190 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text192 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text194 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text196 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text198 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text200 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text202 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text204 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text206 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text208 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text210 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text212 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text214 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text216 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text218 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text220 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text222 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text224 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text226 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text228 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text230 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text232 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text234 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text236 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text238 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text240 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text242 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text244 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text246 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text248 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text250 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text252 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text254 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text256 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text258 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text260 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text262 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text264 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text266 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text268 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text270 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text272 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text274 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text276 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text278 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text280 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text282 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text284 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text286 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text288 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text290 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text292 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text294 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text296 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text298 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text300 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text302 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text304 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text306 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text308 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text310 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text312 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text314 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text316 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text318 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text320 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text322 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text324 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text326 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text328 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text330 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text332 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text334 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text336 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text338 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text340 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text342 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text344 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text346 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text348 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text350 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text352 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text354 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text356 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text358 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text360 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text362 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text364 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text366 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text368 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text370 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text372 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text374 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text376 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text378 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text380 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text382 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text383 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-quote {
+  gap: 32px;
+  display: flex;
+  padding: 32px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(232, 232, 234, 1);
+  border-style: solid;
+  border-width: 0 0 0 4px;
+  border-radius: 12px;
+  justify-content: center;
+  background-color: rgba(246, 246, 247, 1);
+}
+.s24-canty-kessler-text384 {
+  color: rgb(24, 26, 42);
+  height: auto;
+  flex-grow: 1;
+  text-align: left;
+  line-height: 32px;
+}
+.s24-canty-kessler-text387 {
+  color: rgb(59, 60, 74);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  text-align: left;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-image2 {
+  width: auto;
+  height: 462px;
+  align-self: stretch;
+  border-radius: 12px;
+}
+.s24-canty-kessler-text396 {
+  color: rgb(59, 60, 74);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  text-align: left;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-para3 {
+  gap: 16px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.s24-canty-kessler-text400 {
+  color: rgb(59, 60, 74);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  text-align: left;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-oconclusion {
+  gap: 48px;
+  width: 800px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.s24-canty-kessler-para4 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.s24-canty-kessler-text404 {
+  color: rgb(24, 26, 42);
+  height: auto;
+  font-size: 24px;
+  align-self: stretch;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: "Work Sans";
+  font-weight: 600;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s24-canty-kessler-text405 {
+  color: rgba(0, 0, 0, 0.47);
+}
+.s24-canty-kessler-footer {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-shrink: 1;
+  justify-content: center;
+  background-color: rgba(33, 37, 41, 1);
+}
+.s24-canty-kessler-contents {
+  top: 90px;
+  right: 66px;
+  width: 386px;
+  height: 238px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.s24-canty-kessler-text413 {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+}
+.s24-canty-kessler-text414 {
+  font-family: "Fira Sans";
+}
+.s24-canty-kessler-text416 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.s24-canty-kessler-contents1 {
+  top: 100px;
+  left: 114px;
+  width: 386px;
+  height: 238px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.s24-canty-kessler-text428 {
+  color: rgb(255, 255, 255);
+}
+.s24-canty-kessler-text429 {
+  font-size: 24px;
+}
+.s24-canty-kessler-text431 {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  text-align: center;
+}
+.s24-canty-kessler-image3 {
+  width: 398px;
+  height: 318px;
+  object-fit: cover;
+  padding-left: var(--dl-space-space-fourunits);
+}

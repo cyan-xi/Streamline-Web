@@ -1,0 +1,423 @@
+.s24-ho-climate-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.s24-ho-climate-content {
+  gap: 32px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.s24-ho-climate-nav-bar {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: flex-end;
+}
+.s24-ho-climate-rectangle1 {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 80px;
+  position: absolute;
+}
+.s24-ho-climate-group3 {
+  top: 28px;
+  right: 75px;
+  width: 358px;
+  height: 24px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.s24-ho-climate-text {
+  color: rgb(255, 255, 255);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s24-ho-climate-text01 {
+  left: 91px;
+  color: rgb(255, 255, 255);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s24-ho-climate-text02 {
+  top: 0px;
+  color: rgb(255, 255, 255);
+  right: 7px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s24-ho-climate-text06 {
+  top: 0px;
+  left: 189px;
+  color: rgb(255, 255, 255);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s24-ho-climate-group1 {
+  top: 15px;
+  left: 50px;
+  width: 486px;
+  height: 62px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 1;
+  justify-content: center;
+}
+.s24-ho-climate-ellipse1 {
+  top: -28px;
+  left: -28px;
+  width: 106px;
+  height: 103px;
+  position: absolute;
+}
+.s24-ho-climate-text09 {
+  top: 9px;
+  left: 82px;
+  color: rgb(255, 255, 255);
+  height: auto;
+  position: absolute;
+  font-size: 26px;
+  font-style: italic;
+  text-align: left;
+  font-family: "Fira Sans";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s24-ho-climate-content1 {
+  gap: 80px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+}
+.s24-ho-climate-main-content {
+  gap: 32px;
+  display: flex;
+  align-items: flex-start;
+}
+.s24-ho-climate-content2 {
+  gap: 32px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.s24-ho-climate-oarticle {
+  gap: 32px;
+  width: 800px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.s24-ho-climate-blog-info {
+  gap: 20px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.s24-ho-climate-heading {
+  gap: 16px;
+  width: 800px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.s24-ho-climate-text10 {
+  color: rgb(24, 26, 42);
+  height: auto;
+  font-size: 36px;
+  align-self: stretch;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: "Work Sans";
+  font-weight: 600;
+  line-height: 40px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s24-ho-climate-short-info {
+  gap: 24px;
+  display: flex;
+  align-items: center;
+}
+.s24-ho-climate-aauthor {
+  gap: 8px;
+  display: flex;
+  align-items: center;
+}
+.s24-ho-climate-image {
+  width: 28px;
+  height: 28px;
+  border-radius: 28px;
+}
+.s24-ho-climate-text11 {
+  color: rgb(42, 44, 61);
+  height: auto;
+  font-size: 14px;
+  font-style: normal;
+  text-align: left;
+  font-family: "Work Sans";
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+.s24-ho-climate-text12 {
+  color: rgb(105, 106, 117);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Work Sans";
+  font-weight: 400;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s24-ho-climate-image1 {
+  width: auto;
+  height: 462px;
+  align-self: stretch;
+  border-radius: 12px;
+}
+.s24-ho-climate-para {
+  gap: 10px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.s24-ho-climate-text13 {
+  width: 804px;
+  height: auto;
+  font-size: 20px;
+  text-align: left;
+  font-family: "Roboto";
+  line-height: 28px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.s24-ho-climate-para1 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.s24-ho-climate-text14 {
+  color: rgb(59, 60, 74);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  text-align: left;
+  line-height: 32px;
+  letter-spacing: 0em;
+}
+.s24-ho-climate-quote {
+  gap: 32px;
+  display: flex;
+  padding: 32px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(232, 232, 234, 1);
+  border-style: solid;
+  border-width: 0 0 0 4px;
+  border-radius: 12px;
+  background-color: rgba(246, 246, 247, 1);
+}
+.s24-ho-climate-text18 {
+  color: rgb(24, 26, 42);
+  height: auto;
+  flex-grow: 1;
+  text-align: left;
+  line-height: 32px;
+}
+.s24-ho-climate-para2 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.s24-ho-climate-text19 {
+  color: rgb(59, 60, 74);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  text-align: left;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+}
+.s24-ho-climate-text20 {
+  font-family: "Noto Sans";
+}
+.s24-ho-climate-text21 {
+  font-family: "Roboto";
+}
+.s24-ho-climate-image2 {
+  width: auto;
+  height: 462px;
+  align-self: stretch;
+  border-radius: 12px;
+}
+.s24-ho-climate-para3 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.s24-ho-climate-text23 {
+  color: rgb(59, 60, 74);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  text-align: left;
+  line-height: 32px;
+  letter-spacing: 0em;
+}
+.s24-ho-climate-oconclusion {
+  gap: 48px;
+  width: 800px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.s24-ho-climate-para4 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.s24-ho-climate-text29 {
+  color: rgb(24, 26, 42);
+  height: auto;
+  font-size: 24px;
+  align-self: stretch;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: "Work Sans";
+  font-weight: 600;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s24-ho-climate-text30 {
+  color: rgba(0, 0, 0, 0.47);
+}
+.s24-ho-climate-footer {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-shrink: 1;
+  justify-content: center;
+  background-color: rgba(33, 37, 41, 1);
+}
+.s24-ho-climate-contents {
+  top: 90px;
+  right: 66px;
+  width: 386px;
+  height: 238px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.s24-ho-climate-text41 {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+}
+.s24-ho-climate-text42 {
+  font-family: "Fira Sans";
+}
+.s24-ho-climate-text44 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.s24-ho-climate-contents1 {
+  top: 100px;
+  left: 114px;
+  width: 386px;
+  height: 238px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.s24-ho-climate-text56 {
+  color: rgb(255, 255, 255);
+}
+.s24-ho-climate-text57 {
+  font-size: 24px;
+}
+.s24-ho-climate-text59 {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  text-align: center;
+}
+.s24-ho-climate-image3 {
+  width: 398px;
+  height: 318px;
+  object-fit: cover;
+  padding-left: var(--dl-space-space-fourunits);
+}

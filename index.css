@@ -302,6 +302,9 @@
   text-align: left;
   line-height: 24px;
 }
+.home-navlink01 {
+  display: contents;
+}
 .home-mpostcardgrid01 {
   gap: 16px;
   width: 398px;
@@ -320,6 +323,7 @@
   flex-direction: column;
   animation-delay: 0s;
   justify-content: center;
+  text-decoration: none;
   background-color: var(--dl-color-default-white);
   animation-duration: 300ms;
   animation-direction: normal;
@@ -380,7 +384,7 @@
   text-align: left;
   line-height: 24px;
 }
-.home-navlink1 {
+.home-navlink02 {
   display: contents;
 }
 .home-mpostcardgrid02 {
@@ -457,6 +461,9 @@
   display: flex;
   align-items: flex-start;
 }
+.home-navlink03 {
+  display: contents;
+}
 .home-mpostcardgrid03 {
   gap: 16px;
   width: 392px;
@@ -528,6 +535,9 @@
   text-align: left;
   line-height: 24px;
 }
+.home-navlink04 {
+  display: contents;
+}
 .home-mpostcardgrid04 {
   gap: 16px;
   width: 392px;
@@ -596,6 +606,9 @@
   height: auto;
   text-align: left;
   line-height: 24px;
+}
+.home-navlink05 {
+  display: contents;
 }
 .home-mpostcardgrid05 {
   gap: 16px;
@@ -673,6 +686,9 @@
   display: flex;
   align-items: flex-start;
 }
+.home-navlink06 {
+  display: contents;
+}
 .home-mpostcardgrid06 {
   gap: 16px;
   width: 392px;
@@ -737,6 +753,9 @@
   height: auto;
   text-align: left;
   line-height: 24px;
+}
+.home-navlink07 {
+  display: contents;
 }
 .home-mpostcardgrid07 {
   gap: 16px;
@@ -804,6 +823,9 @@
   height: auto;
   text-align: left;
   line-height: 24px;
+}
+.home-navlink08 {
+  display: contents;
 }
 .home-mpostcardgrid08 {
   gap: 16px;
@@ -875,6 +897,9 @@
   display: flex;
   align-items: flex-start;
 }
+.home-navlink09 {
+  display: contents;
+}
 .home-mpostcardgrid09 {
   gap: 16px;
   width: 392px;
@@ -939,6 +964,9 @@
   height: auto;
   text-align: left;
   line-height: 24px;
+}
+.home-navlink10 {
+  display: contents;
 }
 .home-mpostcardgrid10 {
   gap: 16px;
@@ -1006,6 +1034,9 @@
   height: auto;
   text-align: left;
   line-height: 24px;
+}
+.home-navlink11 {
+  display: contents;
 }
 .home-mpostcardgrid11 {
   gap: 16px;
@@ -1077,6 +1108,9 @@
   display: flex;
   align-items: flex-start;
 }
+.home-navlink12 {
+  display: contents;
+}
 .home-mpostcardgrid12 {
   gap: 16px;
   width: 392px;
@@ -1141,6 +1175,9 @@
   height: auto;
   text-align: left;
   line-height: 24px;
+}
+.home-navlink13 {
+  display: contents;
 }
 .home-mpostcardgrid13 {
   gap: 16px;
@@ -1208,6 +1245,9 @@
   height: auto;
   text-align: left;
   line-height: 24px;
+}
+.home-navlink14 {
+  display: contents;
 }
 .home-mpostcardgrid14 {
   gap: 16px;
@@ -1697,6 +1737,7 @@
   }
   .home-group3 {
     top: var(--dl-space-space-fourunits);
+    right: 20px;
     width: 457px;
     height: 44px;
   }

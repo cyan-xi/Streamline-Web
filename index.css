@@ -10,8 +10,8 @@
   top: 75px;
   flex: 1;
   right: 0px;
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 500px;
   position: absolute;
 }
 .home-content {
@@ -24,12 +24,12 @@
 }
 .home-group9107 {
   width: 100%;
-  height: 525px;
+  height: 598px;
   display: flex;
   position: relative;
   align-items: flex-start;
   flex-shrink: 1;
-  padding-bottom: 57px;
+  padding-bottom: 2px;
 }
 .home-herosection {
   width: 100%;
@@ -1359,10 +1359,18 @@
   padding-left: var(--dl-space-space-fourunits);
 }
 @media(max-width: 991px) {
+  .home-rectangle3 {
+    top: 75px;
+    left: left;
+    width: auto;
+    height: 300px;
+    position: absolute;
+  }
   .home-content {
     height: 3251px;
   }
   .home-group9107 {
+    width: 100%;
     height: 376px;
   }
   .home-small-text {
@@ -1602,10 +1610,9 @@
 @media(max-width: 500px) {
   .home-rectangle3 {
     top: 100px;
-    left: 0px;
     right: 0px;
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 150px;
     margin: auto;
     position: absolute;
   }

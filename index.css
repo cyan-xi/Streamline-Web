@@ -1358,12 +1358,12 @@
   object-fit: cover;
   padding-left: var(--dl-space-space-fourunits);
 }
-@media(max-width: 991px) {
+@media(max-width: 1200px) {
   .home-rectangle3 {
     top: 75px;
     left: left;
     width: auto;
-    height: 300px;
+    height: 330px;
     position: absolute;
   }
   .home-content {
@@ -1605,6 +1605,11 @@
     width: 284px;
     height: 253px;
     padding-left: 0px;
+  }
+}
+@media(max-width: 767px) {
+  .home-rectangle3 {
+    width: auto;
   }
 }
 @media(max-width: 500px) {

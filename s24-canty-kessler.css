@@ -1333,12 +1333,14 @@
   width: 398px;
   height: 318px;
   object-fit: cover;
-  padding-left: var(--dl-space-space-fourunits);
 }
 @media(max-width: 1200px) {
   .s24-canty-kessler-ellipse1 {
     left: -22px;
     bottom: -113px;
+  }
+  .s24-canty-kessler-contents1 {
+    width: 309px;
   }
 }
 @media(max-width: 767px) {
@@ -1370,6 +1372,31 @@
   }
   .s24-canty-kessler-oconclusion {
     width: 626px;
+  }
+  .s24-canty-kessler-contents {
+    right: 0px;
+    width: 283px;
+    align-items: center;
+  }
+  .s24-canty-kessler-contents1 {
+    left: 0px;
+    width: 296px;
+    align-items: center;
+  }
+  .s24-canty-kessler-text425 {
+    color: rgb(255, 255, 255);
+  }
+  .s24-canty-kessler-text426 {
+    font-size: 24px;
+  }
+  .s24-canty-kessler-text428 {
+    color: rgb(255, 255, 255);
+    width: 60%;
+  }
+  .s24-canty-kessler-image3 {
+    width: 40%;
+    height: auto;
+    padding-left: 0px;
   }
 }
 @media(max-width: 500px) {
@@ -1416,5 +1443,22 @@
     width: 500px;
     height: 3465px;
     padding-left: 10px;
+  }
+  .s24-canty-kessler-contents {
+    top: 111px;
+    right: 4px;
+    width: 187px;
+    height: 171px;
+  }
+  .s24-canty-kessler-text413 {
+    font-size: 12px;
+  }
+  .s24-canty-kessler-contents1 {
+    font: 12px;
+    width: 222px;
+  }
+  .s24-canty-kessler-text428 {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
   }
 }

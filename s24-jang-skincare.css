@@ -20,9 +20,9 @@
   height: 80px;
   display: flex;
   position: relative;
-  align-items: center;
+  align-items: flex-end;
   flex-shrink: 0;
-  justify-content: flex-end;
+  justify-content: center;
 }
 .s24-jang-skincare-rectangle1 {
   top: 0px;
@@ -30,73 +30,6 @@
   width: 100%;
   height: 80px;
   position: absolute;
-}
-.s24-jang-skincare-group3 {
-  top: 28px;
-  right: 75px;
-  width: 358px;
-  height: 24px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.s24-jang-skincare-text {
-  color: rgb(255, 255, 255);
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  font-style: Bold;
-  text-align: left;
-  font-family: "Poppins";
-  font-weight: 700;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.s24-jang-skincare-text001 {
-  left: 91px;
-  color: rgb(255, 255, 255);
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  font-style: Regular;
-  text-align: left;
-  font-family: "Poppins";
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.s24-jang-skincare-text002 {
-  top: 0px;
-  color: rgb(255, 255, 255);
-  right: 7px;
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  font-style: Regular;
-  text-align: left;
-  font-family: "Poppins";
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.s24-jang-skincare-text006 {
-  top: 0px;
-  left: 189px;
-  color: rgb(255, 255, 255);
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  font-style: Regular;
-  text-align: left;
-  font-family: "Poppins";
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
 }
 .s24-jang-skincare-group1 {
   top: 15px;
@@ -116,7 +49,7 @@
   height: 103px;
   position: absolute;
 }
-.s24-jang-skincare-text009 {
+.s24-jang-skincare-text {
   top: 9px;
   left: 82px;
   color: rgb(255, 255, 255);
@@ -126,6 +59,59 @@
   font-style: italic;
   text-align: left;
   font-family: "Fira Sans";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s24-jang-skincare-group3 {
+  top: 28px;
+  right: 75px;
+  width: 250px;
+  height: 24px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.s24-jang-skincare-text001 {
+  color: rgb(255, 255, 255);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s24-jang-skincare-text002 {
+  top: 0px;
+  left: 84px;
+  color: rgb(255, 255, 255);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s24-jang-skincare-text003 {
+  top: 0px;
+  color: rgb(255, 255, 255);
+  right: 7px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Poppins";
   font-weight: 400;
   line-height: normal;
   font-stretch: normal;
@@ -172,7 +158,7 @@
   flex-shrink: 0;
   flex-direction: column;
 }
-.s24-jang-skincare-text010 {
+.s24-jang-skincare-text007 {
   color: rgb(24, 26, 42);
   height: auto;
   font-size: 36px;
@@ -200,7 +186,7 @@
   height: 28px;
   border-radius: 28px;
 }
-.s24-jang-skincare-text011 {
+.s24-jang-skincare-text008 {
   color: rgb(42, 44, 61);
   height: auto;
   font-size: 14px;
@@ -210,7 +196,7 @@
   line-height: 20px;
   letter-spacing: 0em;
 }
-.s24-jang-skincare-text012 {
+.s24-jang-skincare-text009 {
   color: rgb(105, 106, 117);
   height: auto;
   font-size: 14px;
@@ -235,7 +221,7 @@
   align-items: flex-start;
   flex-shrink: 0;
 }
-.s24-jang-skincare-text013 {
+.s24-jang-skincare-text010 {
   width: 804px;
   height: auto;
   font-size: 20px;
@@ -245,13 +231,13 @@
   font-stretch: normal;
   letter-spacing: 0em;
 }
-.s24-jang-skincare-text015 {
+.s24-jang-skincare-text012 {
   font-size: 20px;
   font-family: "Roboto";
   line-height: 28px;
   letter-spacing: 0em;
 }
-.s24-jang-skincare-text017 {
+.s24-jang-skincare-text014 {
   color: rgb(24, 26, 42);
   height: auto;
   font-size: 24px;
@@ -271,7 +257,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.s24-jang-skincare-text018 {
+.s24-jang-skincare-text015 {
   color: rgb(59, 60, 74);
   height: auto;
   font-size: 20px;
@@ -280,7 +266,7 @@
   line-height: 32px;
   letter-spacing: 0em;
 }
-.s24-jang-skincare-text020 {
+.s24-jang-skincare-text017 {
   color: #3b3c4a;
   font-size: 20px;
   line-height: 32px;
@@ -299,14 +285,14 @@
   border-radius: 12px;
   background-color: rgba(246, 246, 247, 1);
 }
-.s24-jang-skincare-text022 {
+.s24-jang-skincare-text019 {
   color: rgb(24, 26, 42);
   height: auto;
   flex-grow: 1;
   text-align: left;
   line-height: 32px;
 }
-.s24-jang-skincare-text023 {
+.s24-jang-skincare-text020 {
   color: rgb(24, 26, 42);
   height: auto;
   font-size: 24px;
@@ -326,7 +312,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.s24-jang-skincare-text026 {
+.s24-jang-skincare-text023 {
   color: rgb(59, 60, 74);
   height: auto;
   font-size: 20px;
@@ -339,7 +325,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.s24-jang-skincare-text028 {
+.s24-jang-skincare-text025 {
   color: #3b3c4a;
   font-size: 20px;
   font-style: normal;
@@ -349,7 +335,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.s24-jang-skincare-text030 {
+.s24-jang-skincare-text027 {
   font-weight: 700;
 }
 .s24-jang-skincare-image2 {
@@ -358,7 +344,7 @@
   align-self: stretch;
   border-radius: 12px;
 }
-.s24-jang-skincare-text033 {
+.s24-jang-skincare-text030 {
   color: rgb(24, 26, 42);
   height: auto;
   font-size: 24px;
@@ -378,7 +364,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.s24-jang-skincare-text034 {
+.s24-jang-skincare-text031 {
   color: rgb(59, 60, 74);
   height: auto;
   font-size: 20px;
@@ -388,7 +374,17 @@
   line-height: 32px;
   letter-spacing: 0em;
 }
-.s24-jang-skincare-text036 {
+.s24-jang-skincare-text033 {
+  color: #3b3c4a;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 32px;
+  letter-spacing: 0em;
+}
+.s24-jang-skincare-text035 {
+  font-weight: 700;
+}
+.s24-jang-skincare-text037 {
   color: #3b3c4a;
   font-size: 20px;
   font-style: normal;
@@ -405,17 +401,7 @@
   line-height: 32px;
   letter-spacing: 0em;
 }
-.s24-jang-skincare-text041 {
-  font-weight: 700;
-}
 .s24-jang-skincare-text043 {
-  color: #3b3c4a;
-  font-size: 20px;
-  font-style: normal;
-  line-height: 32px;
-  letter-spacing: 0em;
-}
-.s24-jang-skincare-text046 {
   color: rgb(24, 26, 42);
   height: auto;
   font-size: 24px;
@@ -435,7 +421,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.s24-jang-skincare-text047 {
+.s24-jang-skincare-text044 {
   color: rgb(59, 60, 74);
   height: auto;
   font-size: 20px;
@@ -445,14 +431,14 @@
   line-height: 32px;
   letter-spacing: 0em;
 }
-.s24-jang-skincare-text049 {
+.s24-jang-skincare-text046 {
   color: #3b3c4a;
   font-size: 20px;
   font-style: normal;
   line-height: 32px;
   letter-spacing: 0em;
 }
-.s24-jang-skincare-text051 {
+.s24-jang-skincare-text048 {
   font-weight: 700;
 }
 .s24-jang-skincare-image3 {
@@ -461,7 +447,7 @@
   align-self: stretch;
   border-radius: 12px;
 }
-.s24-jang-skincare-text054 {
+.s24-jang-skincare-text051 {
   color: rgb(24, 26, 42);
   height: auto;
   font-size: 24px;
@@ -481,7 +467,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.s24-jang-skincare-text055 {
+.s24-jang-skincare-text052 {
   color: rgb(59, 60, 74);
   height: auto;
   font-size: 20px;
@@ -491,24 +477,24 @@
   line-height: 32px;
   letter-spacing: 0em;
 }
-.s24-jang-skincare-text057 {
+.s24-jang-skincare-text054 {
   color: #3b3c4a;
   font-size: 20px;
   font-style: normal;
   line-height: 32px;
   letter-spacing: 0em;
 }
-.s24-jang-skincare-text059 {
+.s24-jang-skincare-text056 {
   font-weight: 700;
 }
-.s24-jang-skincare-text061 {
+.s24-jang-skincare-text058 {
   color: #3b3c4a;
   font-size: 20px;
   font-style: normal;
   line-height: 32px;
   letter-spacing: 0em;
 }
-.s24-jang-skincare-text064 {
+.s24-jang-skincare-text061 {
   color: rgb(24, 26, 42);
   height: auto;
   font-size: 24px;
@@ -528,7 +514,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.s24-jang-skincare-text065 {
+.s24-jang-skincare-text062 {
   color: rgb(59, 60, 74);
   height: auto;
   font-size: 20px;
@@ -554,7 +540,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.s24-jang-skincare-text068 {
+.s24-jang-skincare-text065 {
   color: rgb(24, 26, 42);
   height: auto;
   font-size: 24px;
@@ -570,6 +556,9 @@
 .s24-jang-skincare-link {
   color: rgba(0, 0, 0, 0.47);
   width: 100%;
+}
+.s24-jang-skincare-text067 {
+  color: rgba(0, 0, 0, 0.47);
 }
 .s24-jang-skincare-text070 {
   color: rgba(0, 0, 0, 0.47);
@@ -601,9 +590,6 @@
 .s24-jang-skincare-text097 {
   color: rgba(0, 0, 0, 0.47);
 }
-.s24-jang-skincare-text100 {
-  color: rgba(0, 0, 0, 0.47);
-}
 .s24-jang-skincare-footer {
   width: 100%;
   height: 400px;
@@ -627,14 +613,14 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.s24-jang-skincare-text105 {
+.s24-jang-skincare-text102 {
   color: rgb(255, 255, 255);
   font-size: 25px;
 }
-.s24-jang-skincare-text106 {
+.s24-jang-skincare-text103 {
   font-family: "Fira Sans";
 }
-.s24-jang-skincare-text108 {
+.s24-jang-skincare-text105 {
   color: rgb(255, 255, 255);
   text-align: center;
 }
@@ -651,13 +637,13 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.s24-jang-skincare-text120 {
+.s24-jang-skincare-text117 {
   color: rgb(255, 255, 255);
 }
-.s24-jang-skincare-text121 {
+.s24-jang-skincare-text118 {
   font-size: 24px;
 }
-.s24-jang-skincare-text123 {
+.s24-jang-skincare-text120 {
   color: rgb(255, 255, 255);
   width: 100%;
   text-align: center;
@@ -667,4 +653,107 @@
   height: 318px;
   object-fit: cover;
   padding-left: var(--dl-space-space-fourunits);
+}
+@media(max-width: 1200px) {
+  .s24-jang-skincare-ellipse1 {
+    left: -22px;
+    bottom: -113px;
+  }
+}
+@media(max-width: 767px) {
+  .s24-jang-skincare-ellipse1 {
+    left: -50px;
+  }
+  .s24-jang-skincare-text {
+    left: 40px;
+  }
+  .s24-jang-skincare-group3 {
+    right: 0px;
+    bottom: 0px;
+  }
+  .s24-jang-skincare-text002 {
+    top: -1px;
+    left: 83px;
+  }
+  .s24-jang-skincare-content1 {
+    width: 100%;
+    height: auto;
+  }
+  .s24-jang-skincare-main-content {
+    width: 100%;
+    height: auto;
+  }
+  .s24-jang-skincare-content2 {
+    width: 100%;
+    height: auto;
+  }
+  .s24-jang-skincare-oarticle {
+    width: 537px;
+    height: auto;
+  }
+  .s24-jang-skincare-heading {
+    width: 100%;
+  }
+  .s24-jang-skincare-text007 {
+    width: 100%;
+  }
+  .s24-jang-skincare-image1 {
+    width: 100%;
+    height: auto;
+  }
+  .s24-jang-skincare-image2 {
+    height: auto;
+  }
+  .s24-jang-skincare-image3 {
+    width: 100%;
+    height: auto;
+  }
+  .s24-jang-skincare-oconclusion {
+    width: auto;
+    height: auto;
+  }
+}
+@media(max-width: 500px) {
+  .s24-jang-skincare-nav-bar {
+    height: 106px;
+  }
+  .s24-jang-skincare-rectangle1 {
+    height: 106px;
+  }
+  .s24-jang-skincare-group1 {
+    top: 18px;
+    right: -52px;
+  }
+  .s24-jang-skincare-ellipse1 {
+    top: -32px;
+    left: -43px;
+    width: 106px;
+    height: 98px;
+  }
+  .s24-jang-skincare-text {
+    top: 7px;
+    left: 50px;
+  }
+  .s24-jang-skincare-group3 {
+    top: var(--dl-space-space-fourunits);
+    right: 20px;
+    width: 250px;
+    height: 44px;
+  }
+  .s24-jang-skincare-text002 {
+    top: 0px;
+    right: 116px;
+    margin: auto;
+  }
+  .s24-jang-skincare-oarticle {
+    width: 100%;
+  }
+  .s24-jang-skincare-image1 {
+    width: 100%;
+    height: auto;
+  }
+  .s24-jang-skincare-image2 {
+    width: 100%;
+    height: auto;
+  }
 }

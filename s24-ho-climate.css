@@ -20,9 +20,9 @@
   height: 80px;
   display: flex;
   position: relative;
-  align-items: center;
+  align-items: flex-end;
   flex-shrink: 0;
-  justify-content: flex-end;
+  justify-content: center;
 }
 .s24-ho-climate-rectangle1 {
   top: 0px;
@@ -30,73 +30,6 @@
   width: 100%;
   height: 80px;
   position: absolute;
-}
-.s24-ho-climate-group3 {
-  top: 28px;
-  right: 75px;
-  width: 358px;
-  height: 24px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.s24-ho-climate-text {
-  color: rgb(255, 255, 255);
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  font-style: Bold;
-  text-align: left;
-  font-family: "Poppins";
-  font-weight: 700;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.s24-ho-climate-text01 {
-  left: 91px;
-  color: rgb(255, 255, 255);
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  font-style: Regular;
-  text-align: left;
-  font-family: "Poppins";
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.s24-ho-climate-text02 {
-  top: 0px;
-  color: rgb(255, 255, 255);
-  right: 7px;
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  font-style: Regular;
-  text-align: left;
-  font-family: "Poppins";
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.s24-ho-climate-text06 {
-  top: 0px;
-  left: 189px;
-  color: rgb(255, 255, 255);
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  font-style: Regular;
-  text-align: left;
-  font-family: "Poppins";
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
 }
 .s24-ho-climate-group1 {
   top: 15px;
@@ -116,7 +49,7 @@
   height: 103px;
   position: absolute;
 }
-.s24-ho-climate-text09 {
+.s24-ho-climate-text {
   top: 9px;
   left: 82px;
   color: rgb(255, 255, 255);
@@ -126,6 +59,59 @@
   font-style: italic;
   text-align: left;
   font-family: "Fira Sans";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s24-ho-climate-group3 {
+  top: 28px;
+  right: 75px;
+  width: 250px;
+  height: 24px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.s24-ho-climate-text01 {
+  color: rgb(255, 255, 255);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s24-ho-climate-text02 {
+  top: 0px;
+  left: 84px;
+  color: rgb(255, 255, 255);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s24-ho-climate-text03 {
+  top: 0px;
+  color: rgb(255, 255, 255);
+  right: 7px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Poppins";
   font-weight: 400;
   line-height: normal;
   font-stretch: normal;
@@ -172,7 +158,7 @@
   flex-shrink: 0;
   flex-direction: column;
 }
-.s24-ho-climate-text10 {
+.s24-ho-climate-text07 {
   color: rgb(24, 26, 42);
   height: auto;
   font-size: 36px;
@@ -200,7 +186,7 @@
   height: 28px;
   border-radius: 28px;
 }
-.s24-ho-climate-text11 {
+.s24-ho-climate-text08 {
   color: rgb(42, 44, 61);
   height: auto;
   font-size: 14px;
@@ -210,7 +196,7 @@
   line-height: 20px;
   letter-spacing: 0em;
 }
-.s24-ho-climate-text12 {
+.s24-ho-climate-text09 {
   color: rgb(105, 106, 117);
   height: auto;
   font-size: 14px;
@@ -235,7 +221,7 @@
   align-items: flex-start;
   flex-shrink: 0;
 }
-.s24-ho-climate-text13 {
+.s24-ho-climate-text10 {
   width: 804px;
   height: auto;
   font-size: 20px;
@@ -252,7 +238,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.s24-ho-climate-text14 {
+.s24-ho-climate-text11 {
   color: rgb(59, 60, 74);
   height: auto;
   font-size: 20px;
@@ -274,7 +260,7 @@
   border-radius: 12px;
   background-color: rgba(246, 246, 247, 1);
 }
-.s24-ho-climate-text18 {
+.s24-ho-climate-text15 {
   color: rgb(24, 26, 42);
   height: auto;
   flex-grow: 1;
@@ -288,7 +274,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.s24-ho-climate-text19 {
+.s24-ho-climate-text16 {
   color: rgb(59, 60, 74);
   height: auto;
   font-size: 20px;
@@ -298,10 +284,10 @@
   line-height: 32px;
   letter-spacing: 0em;
 }
-.s24-ho-climate-text20 {
+.s24-ho-climate-text17 {
   font-family: "Noto Sans";
 }
-.s24-ho-climate-text21 {
+.s24-ho-climate-text18 {
   font-family: "Roboto";
 }
 .s24-ho-climate-image2 {
@@ -317,7 +303,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.s24-ho-climate-text23 {
+.s24-ho-climate-text20 {
   color: rgb(59, 60, 74);
   height: auto;
   font-size: 20px;
@@ -341,7 +327,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.s24-ho-climate-text29 {
+.s24-ho-climate-text26 {
   color: rgb(24, 26, 42);
   height: auto;
   font-size: 24px;
@@ -354,7 +340,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.s24-ho-climate-text30 {
+.s24-ho-climate-text27 {
   color: rgba(0, 0, 0, 0.47);
 }
 .s24-ho-climate-footer {
@@ -380,14 +366,14 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.s24-ho-climate-text41 {
+.s24-ho-climate-text38 {
   color: rgb(255, 255, 255);
   font-size: 25px;
 }
-.s24-ho-climate-text42 {
+.s24-ho-climate-text39 {
   font-family: "Fira Sans";
 }
-.s24-ho-climate-text44 {
+.s24-ho-climate-text41 {
   color: rgb(255, 255, 255);
   text-align: center;
 }
@@ -404,13 +390,13 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.s24-ho-climate-text56 {
+.s24-ho-climate-text53 {
   color: rgb(255, 255, 255);
 }
-.s24-ho-climate-text57 {
+.s24-ho-climate-text54 {
   font-size: 24px;
 }
-.s24-ho-climate-text59 {
+.s24-ho-climate-text56 {
   color: rgb(255, 255, 255);
   width: 100%;
   text-align: center;
@@ -420,4 +406,100 @@
   height: 318px;
   object-fit: cover;
   padding-left: var(--dl-space-space-fourunits);
+}
+@media(max-width: 1200px) {
+  .s24-ho-climate-ellipse1 {
+    left: -22px;
+    bottom: -113px;
+  }
+}
+@media(max-width: 767px) {
+  .s24-ho-climate-ellipse1 {
+    left: -50px;
+  }
+  .s24-ho-climate-text {
+    left: 40px;
+  }
+  .s24-ho-climate-group3 {
+    right: 0px;
+    bottom: 0px;
+  }
+  .s24-ho-climate-text02 {
+    top: -1px;
+    left: 83px;
+  }
+  .s24-ho-climate-content1 {
+    width: 100%;
+    height: auto;
+  }
+  .s24-ho-climate-main-content {
+    width: 100%;
+    height: auto;
+  }
+  .s24-ho-climate-content2 {
+    width: 100%;
+    height: auto;
+  }
+  .s24-ho-climate-oarticle {
+    width: 584px;
+  }
+  .s24-ho-climate-heading {
+    width: 100%;
+  }
+  .s24-ho-climate-image1 {
+    height: auto;
+  }
+  .s24-ho-climate-image2 {
+    height: auto;
+  }
+  .s24-ho-climate-oconclusion {
+    width: 628px;
+  }
+  .s24-ho-climate-text27 {
+    width: 100%;
+  }
+}
+@media(max-width: 500px) {
+  .s24-ho-climate-nav-bar {
+    height: 106px;
+  }
+  .s24-ho-climate-rectangle1 {
+    height: 106px;
+  }
+  .s24-ho-climate-group1 {
+    top: 18px;
+    right: -52px;
+  }
+  .s24-ho-climate-ellipse1 {
+    top: -32px;
+    left: -43px;
+    width: 106px;
+    height: 98px;
+  }
+  .s24-ho-climate-text {
+    top: 7px;
+    left: 50px;
+  }
+  .s24-ho-climate-group3 {
+    top: var(--dl-space-space-fourunits);
+    right: 20px;
+    width: 250px;
+    height: 44px;
+  }
+  .s24-ho-climate-text02 {
+    top: 0px;
+    right: 116px;
+    margin: auto;
+  }
+  .s24-ho-climate-oarticle {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .s24-ho-climate-image1 {
+    height: auto;
+  }
+  .s24-ho-climate-oconclusion {
+    width: 100%;
+  }
 }

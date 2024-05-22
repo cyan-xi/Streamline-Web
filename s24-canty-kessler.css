@@ -20,9 +20,9 @@
   height: 80px;
   display: flex;
   position: relative;
-  align-items: center;
+  align-items: flex-end;
   flex-shrink: 0;
-  justify-content: flex-end;
+  justify-content: center;
 }
 .s24-canty-kessler-rectangle1 {
   top: 0px;
@@ -30,73 +30,6 @@
   width: 100%;
   height: 80px;
   position: absolute;
-}
-.s24-canty-kessler-group3 {
-  top: 28px;
-  right: 75px;
-  width: 358px;
-  height: 24px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.s24-canty-kessler-text {
-  color: rgb(255, 255, 255);
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  font-style: Bold;
-  text-align: left;
-  font-family: "Poppins";
-  font-weight: 700;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.s24-canty-kessler-text001 {
-  left: 91px;
-  color: rgb(255, 255, 255);
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  font-style: Regular;
-  text-align: left;
-  font-family: "Poppins";
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.s24-canty-kessler-text002 {
-  top: 0px;
-  color: rgb(255, 255, 255);
-  right: 7px;
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  font-style: Regular;
-  text-align: left;
-  font-family: "Poppins";
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.s24-canty-kessler-text006 {
-  top: 0px;
-  left: 189px;
-  color: rgb(255, 255, 255);
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  font-style: Regular;
-  text-align: left;
-  font-family: "Poppins";
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
 }
 .s24-canty-kessler-group1 {
   top: 15px;
@@ -116,7 +49,7 @@
   height: 103px;
   position: absolute;
 }
-.s24-canty-kessler-text009 {
+.s24-canty-kessler-text {
   top: 9px;
   left: 82px;
   color: rgb(255, 255, 255);
@@ -126,6 +59,59 @@
   font-style: italic;
   text-align: left;
   font-family: "Fira Sans";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s24-canty-kessler-group3 {
+  top: 28px;
+  right: 75px;
+  width: 250px;
+  height: 24px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.s24-canty-kessler-text001 {
+  color: rgb(255, 255, 255);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s24-canty-kessler-text002 {
+  top: 0px;
+  left: 84px;
+  color: rgb(255, 255, 255);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s24-canty-kessler-text003 {
+  top: 0px;
+  color: rgb(255, 255, 255);
+  right: 7px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Poppins";
   font-weight: 400;
   line-height: normal;
   font-stretch: normal;
@@ -172,7 +158,7 @@
   flex-shrink: 0;
   flex-direction: column;
 }
-.s24-canty-kessler-text010 {
+.s24-canty-kessler-text007 {
   color: rgb(24, 26, 42);
   height: auto;
   font-size: 36px;
@@ -200,7 +186,7 @@
   height: 28px;
   border-radius: 28px;
 }
-.s24-canty-kessler-text011 {
+.s24-canty-kessler-text008 {
   color: rgb(42, 44, 61);
   height: auto;
   font-size: 14px;
@@ -210,7 +196,7 @@
   line-height: 20px;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text012 {
+.s24-canty-kessler-text009 {
   color: rgb(105, 106, 117);
   height: auto;
   font-size: 14px;
@@ -243,7 +229,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.s24-canty-kessler-text013 {
+.s24-canty-kessler-text010 {
   color: rgb(59, 60, 74);
   height: auto;
   font-size: 20px;
@@ -259,7 +245,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.s24-canty-kessler-text016 {
+.s24-canty-kessler-text013 {
   color: rgb(59, 60, 74);
   height: auto;
   font-size: 20px;
@@ -269,922 +255,922 @@
   line-height: 32px;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text018 {
+.s24-canty-kessler-text015 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text020 {
+.s24-canty-kessler-text017 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text022 {
+.s24-canty-kessler-text019 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text024 {
+.s24-canty-kessler-text021 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text026 {
+.s24-canty-kessler-text023 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text028 {
+.s24-canty-kessler-text025 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text030 {
+.s24-canty-kessler-text027 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text032 {
+.s24-canty-kessler-text029 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text034 {
+.s24-canty-kessler-text031 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text036 {
+.s24-canty-kessler-text033 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text038 {
+.s24-canty-kessler-text035 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text040 {
+.s24-canty-kessler-text037 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text042 {
+.s24-canty-kessler-text039 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text044 {
+.s24-canty-kessler-text041 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text046 {
+.s24-canty-kessler-text043 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text048 {
+.s24-canty-kessler-text045 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text050 {
+.s24-canty-kessler-text047 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text052 {
+.s24-canty-kessler-text049 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text054 {
+.s24-canty-kessler-text051 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text056 {
+.s24-canty-kessler-text053 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text058 {
+.s24-canty-kessler-text055 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text060 {
+.s24-canty-kessler-text057 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text062 {
+.s24-canty-kessler-text059 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text064 {
+.s24-canty-kessler-text061 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text066 {
+.s24-canty-kessler-text063 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text068 {
+.s24-canty-kessler-text065 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text070 {
+.s24-canty-kessler-text067 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text072 {
+.s24-canty-kessler-text069 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text074 {
+.s24-canty-kessler-text071 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text076 {
+.s24-canty-kessler-text073 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text078 {
+.s24-canty-kessler-text075 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text080 {
+.s24-canty-kessler-text077 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text082 {
+.s24-canty-kessler-text079 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text084 {
+.s24-canty-kessler-text081 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text086 {
+.s24-canty-kessler-text083 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text088 {
+.s24-canty-kessler-text085 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text090 {
+.s24-canty-kessler-text087 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text092 {
+.s24-canty-kessler-text089 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text094 {
+.s24-canty-kessler-text091 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text096 {
+.s24-canty-kessler-text093 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text098 {
+.s24-canty-kessler-text095 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text100 {
+.s24-canty-kessler-text097 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text102 {
+.s24-canty-kessler-text099 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text104 {
+.s24-canty-kessler-text101 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text106 {
+.s24-canty-kessler-text103 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text108 {
+.s24-canty-kessler-text105 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text110 {
+.s24-canty-kessler-text107 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text112 {
+.s24-canty-kessler-text109 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text114 {
+.s24-canty-kessler-text111 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text116 {
+.s24-canty-kessler-text113 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text118 {
+.s24-canty-kessler-text115 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text120 {
+.s24-canty-kessler-text117 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text122 {
+.s24-canty-kessler-text119 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text124 {
+.s24-canty-kessler-text121 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text126 {
+.s24-canty-kessler-text123 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text128 {
+.s24-canty-kessler-text125 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text130 {
+.s24-canty-kessler-text127 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text132 {
+.s24-canty-kessler-text129 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text134 {
+.s24-canty-kessler-text131 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text136 {
+.s24-canty-kessler-text133 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text138 {
+.s24-canty-kessler-text135 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text140 {
+.s24-canty-kessler-text137 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text142 {
+.s24-canty-kessler-text139 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text144 {
+.s24-canty-kessler-text141 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text146 {
+.s24-canty-kessler-text143 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text148 {
+.s24-canty-kessler-text145 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text150 {
+.s24-canty-kessler-text147 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text152 {
+.s24-canty-kessler-text149 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text154 {
+.s24-canty-kessler-text151 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text156 {
+.s24-canty-kessler-text153 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text158 {
+.s24-canty-kessler-text155 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text160 {
+.s24-canty-kessler-text157 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text162 {
+.s24-canty-kessler-text159 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text164 {
+.s24-canty-kessler-text161 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text166 {
+.s24-canty-kessler-text163 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text168 {
+.s24-canty-kessler-text165 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text170 {
+.s24-canty-kessler-text167 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text172 {
+.s24-canty-kessler-text169 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text174 {
+.s24-canty-kessler-text171 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text176 {
+.s24-canty-kessler-text173 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text178 {
+.s24-canty-kessler-text175 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text180 {
+.s24-canty-kessler-text177 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text182 {
+.s24-canty-kessler-text179 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text184 {
+.s24-canty-kessler-text181 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text186 {
+.s24-canty-kessler-text183 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text188 {
+.s24-canty-kessler-text185 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text190 {
+.s24-canty-kessler-text187 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text192 {
+.s24-canty-kessler-text189 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text194 {
+.s24-canty-kessler-text191 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text196 {
+.s24-canty-kessler-text193 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text198 {
+.s24-canty-kessler-text195 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text200 {
+.s24-canty-kessler-text197 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text202 {
+.s24-canty-kessler-text199 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text204 {
+.s24-canty-kessler-text201 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text206 {
+.s24-canty-kessler-text203 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text208 {
+.s24-canty-kessler-text205 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text210 {
+.s24-canty-kessler-text207 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text212 {
+.s24-canty-kessler-text209 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text214 {
+.s24-canty-kessler-text211 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text216 {
+.s24-canty-kessler-text213 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text218 {
+.s24-canty-kessler-text215 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text220 {
+.s24-canty-kessler-text217 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text222 {
+.s24-canty-kessler-text219 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text224 {
+.s24-canty-kessler-text221 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text226 {
+.s24-canty-kessler-text223 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text228 {
+.s24-canty-kessler-text225 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text230 {
+.s24-canty-kessler-text227 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text232 {
+.s24-canty-kessler-text229 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text234 {
+.s24-canty-kessler-text231 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text236 {
+.s24-canty-kessler-text233 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text238 {
+.s24-canty-kessler-text235 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text240 {
+.s24-canty-kessler-text237 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text242 {
+.s24-canty-kessler-text239 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text244 {
+.s24-canty-kessler-text241 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text246 {
+.s24-canty-kessler-text243 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text248 {
+.s24-canty-kessler-text245 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text250 {
+.s24-canty-kessler-text247 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text252 {
+.s24-canty-kessler-text249 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text254 {
+.s24-canty-kessler-text251 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text256 {
+.s24-canty-kessler-text253 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text258 {
+.s24-canty-kessler-text255 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text260 {
+.s24-canty-kessler-text257 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text262 {
+.s24-canty-kessler-text259 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text264 {
+.s24-canty-kessler-text261 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text266 {
+.s24-canty-kessler-text263 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text268 {
+.s24-canty-kessler-text265 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text270 {
+.s24-canty-kessler-text267 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text272 {
+.s24-canty-kessler-text269 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text274 {
+.s24-canty-kessler-text271 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text276 {
+.s24-canty-kessler-text273 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text278 {
+.s24-canty-kessler-text275 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text280 {
+.s24-canty-kessler-text277 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text282 {
+.s24-canty-kessler-text279 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text284 {
+.s24-canty-kessler-text281 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text286 {
+.s24-canty-kessler-text283 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text288 {
+.s24-canty-kessler-text285 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text290 {
+.s24-canty-kessler-text287 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text292 {
+.s24-canty-kessler-text289 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text294 {
+.s24-canty-kessler-text291 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text296 {
+.s24-canty-kessler-text293 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text298 {
+.s24-canty-kessler-text295 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text300 {
+.s24-canty-kessler-text297 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text302 {
+.s24-canty-kessler-text299 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text304 {
+.s24-canty-kessler-text301 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text306 {
+.s24-canty-kessler-text303 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text308 {
+.s24-canty-kessler-text305 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text310 {
+.s24-canty-kessler-text307 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text312 {
+.s24-canty-kessler-text309 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text314 {
+.s24-canty-kessler-text311 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text316 {
+.s24-canty-kessler-text313 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text318 {
+.s24-canty-kessler-text315 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text320 {
+.s24-canty-kessler-text317 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text322 {
+.s24-canty-kessler-text319 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text324 {
+.s24-canty-kessler-text321 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text326 {
+.s24-canty-kessler-text323 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text328 {
+.s24-canty-kessler-text325 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text330 {
+.s24-canty-kessler-text327 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text332 {
+.s24-canty-kessler-text329 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text334 {
+.s24-canty-kessler-text331 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text336 {
+.s24-canty-kessler-text333 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text338 {
+.s24-canty-kessler-text335 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text340 {
+.s24-canty-kessler-text337 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text342 {
+.s24-canty-kessler-text339 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text344 {
+.s24-canty-kessler-text341 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text346 {
+.s24-canty-kessler-text343 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text348 {
+.s24-canty-kessler-text345 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text350 {
+.s24-canty-kessler-text347 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text352 {
+.s24-canty-kessler-text349 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text354 {
+.s24-canty-kessler-text351 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text356 {
+.s24-canty-kessler-text353 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text358 {
+.s24-canty-kessler-text355 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text360 {
+.s24-canty-kessler-text357 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text362 {
+.s24-canty-kessler-text359 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text364 {
+.s24-canty-kessler-text361 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text366 {
+.s24-canty-kessler-text363 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text368 {
+.s24-canty-kessler-text365 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text370 {
+.s24-canty-kessler-text367 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text372 {
+.s24-canty-kessler-text369 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text374 {
+.s24-canty-kessler-text371 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text376 {
+.s24-canty-kessler-text373 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
-.s24-canty-kessler-text378 {
+.s24-canty-kessler-text375 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text377 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.s24-canty-kessler-text379 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
 }
 .s24-canty-kessler-text380 {
-  font-size: 20px;
-  font-weight: 400;
-  letter-spacing: 0em;
-}
-.s24-canty-kessler-text382 {
-  font-size: 20px;
-  font-weight: 400;
-  letter-spacing: 0em;
-}
-.s24-canty-kessler-text383 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0em;
@@ -1203,14 +1189,14 @@
   justify-content: center;
   background-color: rgba(246, 246, 247, 1);
 }
-.s24-canty-kessler-text384 {
+.s24-canty-kessler-text381 {
   color: rgb(24, 26, 42);
   height: auto;
   flex-grow: 1;
   text-align: left;
   line-height: 32px;
 }
-.s24-canty-kessler-text387 {
+.s24-canty-kessler-text384 {
   color: rgb(59, 60, 74);
   height: auto;
   font-size: 20px;
@@ -1226,7 +1212,7 @@
   align-self: stretch;
   border-radius: 12px;
 }
-.s24-canty-kessler-text396 {
+.s24-canty-kessler-text393 {
   color: rgb(59, 60, 74);
   height: auto;
   font-size: 20px;
@@ -1244,7 +1230,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.s24-canty-kessler-text400 {
+.s24-canty-kessler-text397 {
   color: rgb(59, 60, 74);
   height: auto;
   font-size: 20px;
@@ -1269,7 +1255,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.s24-canty-kessler-text404 {
+.s24-canty-kessler-text401 {
   color: rgb(24, 26, 42);
   height: auto;
   font-size: 24px;
@@ -1282,7 +1268,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.s24-canty-kessler-text405 {
+.s24-canty-kessler-text402 {
   color: rgba(0, 0, 0, 0.47);
 }
 .s24-canty-kessler-footer {
@@ -1308,14 +1294,14 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.s24-canty-kessler-text413 {
+.s24-canty-kessler-text410 {
   color: rgb(255, 255, 255);
   font-size: 25px;
 }
-.s24-canty-kessler-text414 {
+.s24-canty-kessler-text411 {
   font-family: "Fira Sans";
 }
-.s24-canty-kessler-text416 {
+.s24-canty-kessler-text413 {
   color: rgb(255, 255, 255);
   text-align: center;
 }
@@ -1332,13 +1318,13 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.s24-canty-kessler-text428 {
+.s24-canty-kessler-text425 {
   color: rgb(255, 255, 255);
 }
-.s24-canty-kessler-text429 {
+.s24-canty-kessler-text426 {
   font-size: 24px;
 }
-.s24-canty-kessler-text431 {
+.s24-canty-kessler-text428 {
   color: rgb(255, 255, 255);
   width: 100%;
   text-align: center;
@@ -1348,4 +1334,87 @@
   height: 318px;
   object-fit: cover;
   padding-left: var(--dl-space-space-fourunits);
+}
+@media(max-width: 1200px) {
+  .s24-canty-kessler-ellipse1 {
+    left: -22px;
+    bottom: -113px;
+  }
+}
+@media(max-width: 767px) {
+  .s24-canty-kessler-ellipse1 {
+    left: -50px;
+  }
+  .s24-canty-kessler-text {
+    left: 40px;
+  }
+  .s24-canty-kessler-group3 {
+    right: 0px;
+    bottom: 0px;
+  }
+  .s24-canty-kessler-text002 {
+    top: 0px;
+    left: 86px;
+  }
+  .s24-canty-kessler-content1 {
+    width: 562px;
+  }
+  .s24-canty-kessler-oarticle {
+    width: 626px;
+  }
+  .s24-canty-kessler-heading {
+    width: 100%;
+  }
+  .s24-canty-kessler-text007 {
+    width: 100%;
+  }
+  .s24-canty-kessler-oconclusion {
+    width: 626px;
+  }
+}
+@media(max-width: 500px) {
+  .s24-canty-kessler-nav-bar {
+    height: 106px;
+  }
+  .s24-canty-kessler-rectangle1 {
+    height: 106px;
+  }
+  .s24-canty-kessler-group1 {
+    top: 18px;
+    right: -52px;
+  }
+  .s24-canty-kessler-ellipse1 {
+    top: -32px;
+    left: -43px;
+    width: 106px;
+    height: 98px;
+  }
+  .s24-canty-kessler-text {
+    top: 7px;
+    left: 50px;
+  }
+  .s24-canty-kessler-group3 {
+    top: var(--dl-space-space-fourunits);
+    right: 20px;
+    width: 250px;
+    height: 44px;
+  }
+  .s24-canty-kessler-text002 {
+    top: 0px;
+    right: 116px;
+    margin: auto;
+  }
+  .s24-canty-kessler-content1 {
+    width: 100%;
+    height: 3711px;
+  }
+  .s24-canty-kessler-content2 {
+    width: 500px;
+    height: 3638px;
+  }
+  .s24-canty-kessler-oarticle {
+    width: 500px;
+    height: 3465px;
+    padding-left: 10px;
+  }
 }

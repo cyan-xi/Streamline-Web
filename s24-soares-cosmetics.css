@@ -20,9 +20,9 @@
   height: 80px;
   display: flex;
   position: relative;
-  align-items: center;
+  align-items: flex-end;
   flex-shrink: 0;
-  justify-content: flex-end;
+  justify-content: center;
 }
 .s24-soares-cosmetics-rectangle1 {
   top: 0px;
@@ -30,73 +30,6 @@
   width: 100%;
   height: 80px;
   position: absolute;
-}
-.s24-soares-cosmetics-group3 {
-  top: 28px;
-  right: 75px;
-  width: 358px;
-  height: 24px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.s24-soares-cosmetics-text {
-  color: rgb(255, 255, 255);
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  font-style: Bold;
-  text-align: left;
-  font-family: "Poppins";
-  font-weight: 700;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.s24-soares-cosmetics-text01 {
-  left: 91px;
-  color: rgb(255, 255, 255);
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  font-style: Regular;
-  text-align: left;
-  font-family: "Poppins";
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.s24-soares-cosmetics-text02 {
-  top: 0px;
-  color: rgb(255, 255, 255);
-  right: 7px;
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  font-style: Regular;
-  text-align: left;
-  font-family: "Poppins";
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.s24-soares-cosmetics-text06 {
-  top: 0px;
-  left: 189px;
-  color: rgb(255, 255, 255);
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  font-style: Regular;
-  text-align: left;
-  font-family: "Poppins";
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
 }
 .s24-soares-cosmetics-group1 {
   top: 15px;
@@ -116,7 +49,7 @@
   height: 103px;
   position: absolute;
 }
-.s24-soares-cosmetics-text09 {
+.s24-soares-cosmetics-text {
   top: 9px;
   left: 82px;
   color: rgb(255, 255, 255);
@@ -126,6 +59,59 @@
   font-style: italic;
   text-align: left;
   font-family: "Fira Sans";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s24-soares-cosmetics-group3 {
+  top: 28px;
+  right: 75px;
+  width: 250px;
+  height: 24px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.s24-soares-cosmetics-text01 {
+  color: rgb(255, 255, 255);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s24-soares-cosmetics-text02 {
+  top: 0px;
+  left: 84px;
+  color: rgb(255, 255, 255);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s24-soares-cosmetics-text03 {
+  top: 0px;
+  color: rgb(255, 255, 255);
+  right: 7px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Poppins";
   font-weight: 400;
   line-height: normal;
   font-stretch: normal;
@@ -172,7 +158,7 @@
   flex-shrink: 0;
   flex-direction: column;
 }
-.s24-soares-cosmetics-text10 {
+.s24-soares-cosmetics-text07 {
   color: rgb(24, 26, 42);
   height: auto;
   font-size: 36px;
@@ -200,7 +186,7 @@
   height: 28px;
   border-radius: 28px;
 }
-.s24-soares-cosmetics-text11 {
+.s24-soares-cosmetics-text08 {
   color: rgb(42, 44, 61);
   height: auto;
   font-size: 14px;
@@ -210,7 +196,7 @@
   line-height: 20px;
   letter-spacing: 0em;
 }
-.s24-soares-cosmetics-text12 {
+.s24-soares-cosmetics-text09 {
   color: rgb(105, 106, 117);
   height: auto;
   font-size: 14px;
@@ -228,7 +214,7 @@
   align-self: stretch;
   border-radius: 12px;
 }
-.s24-soares-cosmetics-text13 {
+.s24-soares-cosmetics-text10 {
   color: rgb(59, 60, 74);
   height: auto;
   font-size: 20px;
@@ -244,7 +230,7 @@
   align-items: flex-start;
   flex-shrink: 0;
 }
-.s24-soares-cosmetics-text16 {
+.s24-soares-cosmetics-text13 {
   color: rgb(24, 26, 42);
   height: auto;
   font-size: 24px;
@@ -264,7 +250,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.s24-soares-cosmetics-text17 {
+.s24-soares-cosmetics-text14 {
   color: rgb(59, 60, 74);
   height: auto;
   font-size: 20px;
@@ -273,7 +259,7 @@
   line-height: 32px;
   letter-spacing: 0em;
 }
-.s24-soares-cosmetics-text20 {
+.s24-soares-cosmetics-text17 {
   color: #3b3c4a;
   line-height: 32px;
 }
@@ -283,7 +269,7 @@
   align-self: stretch;
   border-radius: 12px;
 }
-.s24-soares-cosmetics-text24 {
+.s24-soares-cosmetics-text21 {
   color: rgb(24, 26, 42);
   height: auto;
   font-size: 24px;
@@ -303,7 +289,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.s24-soares-cosmetics-text27 {
+.s24-soares-cosmetics-text24 {
   color: rgb(59, 60, 74);
   height: auto;
   font-size: 20px;
@@ -327,14 +313,14 @@
   justify-content: center;
   background-color: rgba(246, 246, 247, 1);
 }
-.s24-soares-cosmetics-text30 {
+.s24-soares-cosmetics-text27 {
   color: rgb(24, 26, 42);
   height: auto;
   flex-grow: 1;
   text-align: left;
   line-height: 32px;
 }
-.s24-soares-cosmetics-text31 {
+.s24-soares-cosmetics-text28 {
   color: rgb(24, 26, 42);
   height: auto;
   font-size: 24px;
@@ -347,7 +333,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.s24-soares-cosmetics-text34 {
+.s24-soares-cosmetics-text31 {
   color: rgb(59, 60, 74);
   height: auto;
   font-size: 20px;
@@ -357,7 +343,7 @@
   line-height: 32px;
   letter-spacing: 0em;
 }
-.s24-soares-cosmetics-text36 {
+.s24-soares-cosmetics-text33 {
   color: #3b3c4a;
   line-height: 32px;
 }
@@ -367,7 +353,7 @@
   align-self: stretch;
   border-radius: 12px;
 }
-.s24-soares-cosmetics-text40 {
+.s24-soares-cosmetics-text37 {
   color: rgb(24, 26, 42);
   height: auto;
   font-size: 24px;
@@ -380,7 +366,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.s24-soares-cosmetics-text41 {
+.s24-soares-cosmetics-text38 {
   color: rgb(59, 60, 74);
   height: auto;
   font-size: 20px;
@@ -405,7 +391,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.s24-soares-cosmetics-text48 {
+.s24-soares-cosmetics-text45 {
   color: rgb(24, 26, 42);
   height: auto;
   font-size: 24px;
@@ -418,10 +404,13 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.s24-soares-cosmetics-text49 {
+.s24-soares-cosmetics-text46 {
   color: rgba(0, 0, 0, 0.47);
 }
-.s24-soares-cosmetics-text51 {
+.s24-soares-cosmetics-text48 {
+  color: rgba(0, 0, 0, 0.47);
+}
+.s24-soares-cosmetics-text54 {
   color: rgba(0, 0, 0, 0.47);
 }
 .s24-soares-cosmetics-text57 {
@@ -431,9 +420,6 @@
   color: rgba(0, 0, 0, 0.47);
 }
 .s24-soares-cosmetics-text63 {
-  color: rgba(0, 0, 0, 0.47);
-}
-.s24-soares-cosmetics-text66 {
   color: rgba(0, 0, 0, 0.47);
 }
 .s24-soares-cosmetics-footer {
@@ -459,14 +445,14 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.s24-soares-cosmetics-text72 {
+.s24-soares-cosmetics-text69 {
   color: rgb(255, 255, 255);
   font-size: 25px;
 }
-.s24-soares-cosmetics-text73 {
+.s24-soares-cosmetics-text70 {
   font-family: "Fira Sans";
 }
-.s24-soares-cosmetics-text75 {
+.s24-soares-cosmetics-text72 {
   color: rgb(255, 255, 255);
   text-align: center;
 }
@@ -483,13 +469,13 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.s24-soares-cosmetics-text87 {
+.s24-soares-cosmetics-text84 {
   color: rgb(255, 255, 255);
 }
-.s24-soares-cosmetics-text88 {
+.s24-soares-cosmetics-text85 {
   font-size: 24px;
 }
-.s24-soares-cosmetics-text90 {
+.s24-soares-cosmetics-text87 {
   color: rgb(255, 255, 255);
   width: 100%;
   text-align: center;
@@ -499,4 +485,92 @@
   height: 318px;
   object-fit: cover;
   padding-left: var(--dl-space-space-fourunits);
+}
+@media(max-width: 1200px) {
+  .s24-soares-cosmetics-ellipse1 {
+    left: -22px;
+    bottom: -113px;
+  }
+}
+@media(max-width: 767px) {
+  .s24-soares-cosmetics-ellipse1 {
+    left: -50px;
+  }
+  .s24-soares-cosmetics-text {
+    left: 40px;
+  }
+  .s24-soares-cosmetics-group3 {
+    right: 0px;
+    bottom: 0px;
+  }
+  .s24-soares-cosmetics-text02 {
+    top: -1px;
+    left: 83px;
+  }
+  .s24-soares-cosmetics-content1 {
+    width: 100%;
+  }
+  .s24-soares-cosmetics-main-content {
+    width: 100%;
+  }
+  .s24-soares-cosmetics-content2 {
+    width: 100%;
+  }
+  .s24-soares-cosmetics-oarticle {
+    width: 500px;
+    height: auto;
+  }
+  .s24-soares-cosmetics-heading {
+    width: 100%;
+  }
+  .s24-soares-cosmetics-image1 {
+    width: 100%;
+    height: auto;
+  }
+  .s24-soares-cosmetics-image2 {
+    height: auto;
+  }
+  .s24-soares-cosmetics-image3 {
+    height: auto;
+  }
+}
+@media(max-width: 500px) {
+  .s24-soares-cosmetics-nav-bar {
+    height: 106px;
+  }
+  .s24-soares-cosmetics-rectangle1 {
+    height: 106px;
+  }
+  .s24-soares-cosmetics-group1 {
+    top: 18px;
+    right: -52px;
+  }
+  .s24-soares-cosmetics-ellipse1 {
+    top: -32px;
+    left: -43px;
+    width: 106px;
+    height: 98px;
+  }
+  .s24-soares-cosmetics-text {
+    top: 7px;
+    left: 50px;
+  }
+  .s24-soares-cosmetics-group3 {
+    top: var(--dl-space-space-fourunits);
+    right: 20px;
+    width: 250px;
+    height: 44px;
+  }
+  .s24-soares-cosmetics-text02 {
+    top: 0px;
+    right: 116px;
+    margin: auto;
+  }
+  .s24-soares-cosmetics-oconclusion {
+    width: 100%;
+    height: auto;
+  }
+  .s24-soares-cosmetics-text46 {
+    width: 100%;
+  }
 }

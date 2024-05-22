@@ -20,9 +20,9 @@
   height: 80px;
   display: flex;
   position: relative;
-  align-items: center;
+  align-items: flex-end;
   flex-shrink: 0;
-  justify-content: flex-end;
+  justify-content: center;
 }
 .s24-hauff-decision-rectangle1 {
   top: 0px;
@@ -30,73 +30,6 @@
   width: 100%;
   height: 80px;
   position: absolute;
-}
-.s24-hauff-decision-group3 {
-  top: 28px;
-  right: 75px;
-  width: 358px;
-  height: 24px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.s24-hauff-decision-text {
-  color: rgb(255, 255, 255);
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  font-style: Bold;
-  text-align: left;
-  font-family: "Poppins";
-  font-weight: 700;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.s24-hauff-decision-text01 {
-  left: 91px;
-  color: rgb(255, 255, 255);
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  font-style: Regular;
-  text-align: left;
-  font-family: "Poppins";
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.s24-hauff-decision-text02 {
-  top: 0px;
-  color: rgb(255, 255, 255);
-  right: 7px;
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  font-style: Regular;
-  text-align: left;
-  font-family: "Poppins";
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.s24-hauff-decision-text06 {
-  top: 0px;
-  left: 189px;
-  color: rgb(255, 255, 255);
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  font-style: Regular;
-  text-align: left;
-  font-family: "Poppins";
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
 }
 .s24-hauff-decision-group1 {
   top: 15px;
@@ -116,7 +49,7 @@
   height: 103px;
   position: absolute;
 }
-.s24-hauff-decision-text09 {
+.s24-hauff-decision-text {
   top: 9px;
   left: 82px;
   color: rgb(255, 255, 255);
@@ -126,6 +59,59 @@
   font-style: italic;
   text-align: left;
   font-family: "Fira Sans";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s24-hauff-decision-group3 {
+  top: 28px;
+  right: 75px;
+  width: 250px;
+  height: 24px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.s24-hauff-decision-text01 {
+  color: rgb(255, 255, 255);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s24-hauff-decision-text02 {
+  top: 0px;
+  left: 84px;
+  color: rgb(255, 255, 255);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s24-hauff-decision-text03 {
+  top: 0px;
+  color: rgb(255, 255, 255);
+  right: 7px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Poppins";
   font-weight: 400;
   line-height: normal;
   font-stretch: normal;
@@ -172,7 +158,7 @@
   flex-shrink: 0;
   flex-direction: column;
 }
-.s24-hauff-decision-text10 {
+.s24-hauff-decision-text07 {
   color: rgb(24, 26, 42);
   height: auto;
   font-size: 36px;
@@ -200,7 +186,7 @@
   height: 28px;
   border-radius: 28px;
 }
-.s24-hauff-decision-text11 {
+.s24-hauff-decision-text08 {
   color: rgb(42, 44, 61);
   height: auto;
   font-size: 14px;
@@ -210,7 +196,7 @@
   line-height: 20px;
   letter-spacing: 0em;
 }
-.s24-hauff-decision-text12 {
+.s24-hauff-decision-text09 {
   color: rgb(105, 106, 117);
   height: auto;
   font-size: 14px;
@@ -228,7 +214,7 @@
   align-self: stretch;
   border-radius: 12px;
 }
-.s24-hauff-decision-text13 {
+.s24-hauff-decision-text10 {
   color: rgb(59, 60, 74);
   height: auto;
   font-size: 20px;
@@ -237,12 +223,12 @@
   line-height: 32px;
   letter-spacing: 0em;
 }
-.s24-hauff-decision-text14 {
+.s24-hauff-decision-text11 {
   font-weight: 400;
   text-transform: none;
   text-decoration: none;
 }
-.s24-hauff-decision-text16 {
+.s24-hauff-decision-text13 {
   font-weight: 400;
   text-transform: none;
   text-decoration: none;
@@ -262,7 +248,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.s24-hauff-decision-text17 {
+.s24-hauff-decision-text14 {
   color: rgb(59, 60, 74);
   height: auto;
   font-size: 20px;
@@ -271,8 +257,17 @@
   line-height: 32px;
   letter-spacing: 0em;
 }
-.s24-hauff-decision-text18 {
+.s24-hauff-decision-text15 {
   line-height: 38px;
+}
+.s24-hauff-decision-text16 {
+  line-height: 32px;
+}
+.s24-hauff-decision-text17 {
+  line-height: 32px;
+}
+.s24-hauff-decision-text18 {
+  line-height: 32px;
 }
 .s24-hauff-decision-text19 {
   line-height: 32px;
@@ -287,15 +282,6 @@
   line-height: 32px;
 }
 .s24-hauff-decision-text23 {
-  line-height: 32px;
-}
-.s24-hauff-decision-text24 {
-  line-height: 32px;
-}
-.s24-hauff-decision-text25 {
-  line-height: 32px;
-}
-.s24-hauff-decision-text26 {
   line-height: 38px;
 }
 .s24-hauff-decision-quote {
@@ -312,7 +298,7 @@
   justify-content: center;
   background-color: rgba(246, 246, 247, 1);
 }
-.s24-hauff-decision-text27 {
+.s24-hauff-decision-text24 {
   color: rgb(24, 26, 42);
   height: auto;
   flex-grow: 1;
@@ -326,7 +312,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.s24-hauff-decision-text28 {
+.s24-hauff-decision-text25 {
   color: rgb(59, 60, 74);
   height: auto;
   font-size: 20px;
@@ -336,11 +322,11 @@
   line-height: 32px;
   letter-spacing: 0em;
 }
-.s24-hauff-decision-text30 {
+.s24-hauff-decision-text27 {
   color: #3b3c4a;
   line-height: 32px;
 }
-.s24-hauff-decision-text33 {
+.s24-hauff-decision-text30 {
   color: #3b3c4a;
   line-height: 32px;
 }
@@ -350,7 +336,7 @@
   align-self: stretch;
   border-radius: 12px;
 }
-.s24-hauff-decision-text35 {
+.s24-hauff-decision-text32 {
   color: rgb(59, 60, 74);
   height: auto;
   font-size: 20px;
@@ -360,6 +346,10 @@
   line-height: 32px;
   letter-spacing: 0em;
 }
+.s24-hauff-decision-text34 {
+  color: #3b3c4a;
+  line-height: 32px;
+}
 .s24-hauff-decision-text37 {
   color: #3b3c4a;
   line-height: 32px;
@@ -368,11 +358,7 @@
   color: #3b3c4a;
   line-height: 32px;
 }
-.s24-hauff-decision-text43 {
-  color: #3b3c4a;
-  line-height: 32px;
-}
-.s24-hauff-decision-text45 {
+.s24-hauff-decision-text42 {
   color: rgb(59, 60, 74);
   height: auto;
   font-size: 20px;
@@ -397,7 +383,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.s24-hauff-decision-text46 {
+.s24-hauff-decision-text43 {
   color: rgb(24, 26, 42);
   height: auto;
   font-size: 24px;
@@ -410,7 +396,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.s24-hauff-decision-text47 {
+.s24-hauff-decision-text44 {
   color: rgba(0, 0, 0, 0.47);
 }
 .s24-hauff-decision-footer {
@@ -436,14 +422,14 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.s24-hauff-decision-text51 {
+.s24-hauff-decision-text48 {
   color: rgb(255, 255, 255);
   font-size: 25px;
 }
-.s24-hauff-decision-text52 {
+.s24-hauff-decision-text49 {
   font-family: "Fira Sans";
 }
-.s24-hauff-decision-text54 {
+.s24-hauff-decision-text51 {
   color: rgb(255, 255, 255);
   text-align: center;
 }
@@ -460,13 +446,13 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.s24-hauff-decision-text66 {
+.s24-hauff-decision-text63 {
   color: rgb(255, 255, 255);
 }
-.s24-hauff-decision-text67 {
+.s24-hauff-decision-text64 {
   font-size: 24px;
 }
-.s24-hauff-decision-text69 {
+.s24-hauff-decision-text66 {
   color: rgb(255, 255, 255);
   width: 100%;
   text-align: center;
@@ -476,4 +462,104 @@
   height: 318px;
   object-fit: cover;
   padding-left: var(--dl-space-space-fourunits);
+}
+@media(max-width: 1200px) {
+  .s24-hauff-decision-ellipse1 {
+    left: -22px;
+    bottom: -113px;
+  }
+}
+@media(max-width: 767px) {
+  .s24-hauff-decision-ellipse1 {
+    left: -50px;
+  }
+  .s24-hauff-decision-text {
+    left: 40px;
+  }
+  .s24-hauff-decision-group3 {
+    right: 0px;
+    bottom: 0px;
+  }
+  .s24-hauff-decision-text02 {
+    top: -1px;
+    left: 83px;
+  }
+  .s24-hauff-decision-content1 {
+    height: auto;
+  }
+  .s24-hauff-decision-main-content {
+    width: 767px;
+    height: auto;
+  }
+  .s24-hauff-decision-content2 {
+    width: 100%;
+    height: 100%;
+  }
+  .s24-hauff-decision-oarticle {
+    width: 500px;
+    height: auto;
+  }
+  .s24-hauff-decision-heading {
+    width: 100%;
+  }
+  .s24-hauff-decision-text07 {
+    width: 100%;
+  }
+  .s24-hauff-decision-image1 {
+    width: 100%;
+    height: auto;
+  }
+  .s24-hauff-decision-image2 {
+    width: 100%;
+    height: auto;
+  }
+}
+@media(max-width: 500px) {
+  .s24-hauff-decision-nav-bar {
+    height: 106px;
+  }
+  .s24-hauff-decision-rectangle1 {
+    height: 106px;
+  }
+  .s24-hauff-decision-group1 {
+    top: 18px;
+    right: -52px;
+  }
+  .s24-hauff-decision-ellipse1 {
+    top: -32px;
+    left: -43px;
+    width: 106px;
+    height: 98px;
+  }
+  .s24-hauff-decision-text {
+    top: 7px;
+    left: 50px;
+  }
+  .s24-hauff-decision-group3 {
+    top: var(--dl-space-space-fourunits);
+    right: 20px;
+    width: 250px;
+    height: 44px;
+  }
+  .s24-hauff-decision-text02 {
+    top: 0px;
+    right: 116px;
+    margin: auto;
+  }
+  .s24-hauff-decision-content1 {
+    width: 100%;
+  }
+  .s24-hauff-decision-main-content {
+    width: 100%;
+  }
+  .s24-hauff-decision-oarticle {
+    width: 100%;
+    height: 5493px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .s24-hauff-decision-image1 {
+    width: 100%;
+    height: auto;
+  }
 }

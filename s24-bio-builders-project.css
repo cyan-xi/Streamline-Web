@@ -20,9 +20,9 @@
   height: 80px;
   display: flex;
   position: relative;
-  align-items: center;
+  align-items: flex-end;
   flex-shrink: 0;
-  justify-content: flex-end;
+  justify-content: center;
 }
 .s24-bio-builders-project-rectangle1 {
   top: 0px;
@@ -30,73 +30,6 @@
   width: 100%;
   height: 80px;
   position: absolute;
-}
-.s24-bio-builders-project-group3 {
-  top: 28px;
-  right: 75px;
-  width: 358px;
-  height: 24px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.s24-bio-builders-project-text {
-  color: rgb(255, 255, 255);
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  font-style: Bold;
-  text-align: left;
-  font-family: "Poppins";
-  font-weight: 700;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.s24-bio-builders-project-text01 {
-  left: 91px;
-  color: rgb(255, 255, 255);
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  font-style: Regular;
-  text-align: left;
-  font-family: "Poppins";
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.s24-bio-builders-project-text02 {
-  top: 0px;
-  color: rgb(255, 255, 255);
-  right: 7px;
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  font-style: Regular;
-  text-align: left;
-  font-family: "Poppins";
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.s24-bio-builders-project-text06 {
-  top: 0px;
-  left: 189px;
-  color: rgb(255, 255, 255);
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  font-style: Regular;
-  text-align: left;
-  font-family: "Poppins";
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
 }
 .s24-bio-builders-project-group1 {
   top: 15px;
@@ -116,7 +49,7 @@
   height: 103px;
   position: absolute;
 }
-.s24-bio-builders-project-text09 {
+.s24-bio-builders-project-text {
   top: 9px;
   left: 82px;
   color: rgb(255, 255, 255);
@@ -126,6 +59,58 @@
   font-style: italic;
   text-align: left;
   font-family: "Fira Sans";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s24-bio-builders-project-group3 {
+  top: 28px;
+  right: 75px;
+  width: 250px;
+  height: 24px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.s24-bio-builders-project-text01 {
+  color: rgb(255, 255, 255);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s24-bio-builders-project-text02 {
+  left: 91px;
+  color: rgb(255, 255, 255);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.s24-bio-builders-project-text03 {
+  top: 0px;
+  color: rgb(255, 255, 255);
+  right: 7px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Poppins";
   font-weight: 400;
   line-height: normal;
   font-stretch: normal;
@@ -172,7 +157,7 @@
   flex-shrink: 0;
   flex-direction: column;
 }
-.s24-bio-builders-project-text10 {
+.s24-bio-builders-project-text07 {
   color: rgb(24, 26, 42);
   height: auto;
   font-size: 36px;
@@ -200,7 +185,7 @@
   height: 28px;
   border-radius: 28px;
 }
-.s24-bio-builders-project-text11 {
+.s24-bio-builders-project-text08 {
   color: rgb(42, 44, 61);
   height: auto;
   font-size: 14px;
@@ -210,7 +195,7 @@
   line-height: 20px;
   letter-spacing: 0em;
 }
-.s24-bio-builders-project-text12 {
+.s24-bio-builders-project-text09 {
   color: rgb(105, 106, 117);
   height: auto;
   font-size: 14px;
@@ -228,7 +213,7 @@
   align-self: stretch;
   border-radius: 12px;
 }
-.s24-bio-builders-project-text13 {
+.s24-bio-builders-project-text10 {
   color: rgb(24, 26, 42);
   height: auto;
   font-size: 24px;
@@ -241,7 +226,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.s24-bio-builders-project-text16 {
+.s24-bio-builders-project-text13 {
   color: rgb(59, 60, 74);
   height: auto;
   font-size: 20px;
@@ -263,7 +248,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.s24-bio-builders-project-text21 {
+.s24-bio-builders-project-text18 {
   color: rgb(24, 26, 42);
   height: auto;
   font-size: 24px;
@@ -275,18 +260,18 @@
   line-height: 28px;
   font-stretch: normal;
   text-decoration: none;
+}
+.s24-bio-builders-project-text19 {
+  color: rgb(59, 60, 74);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  text-align: left;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
 }
 .s24-bio-builders-project-text22 {
-  color: rgb(59, 60, 74);
-  height: auto;
-  font-size: 20px;
-  align-self: stretch;
-  text-align: left;
-  font-weight: 400;
-  line-height: 32px;
-  letter-spacing: 0em;
-}
-.s24-bio-builders-project-text25 {
   color: rgb(24, 26, 42);
   height: auto;
   font-size: 24px;
@@ -299,7 +284,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.s24-bio-builders-project-text28 {
+.s24-bio-builders-project-text25 {
   color: rgb(59, 60, 74);
   height: auto;
   font-size: 20px;
@@ -309,11 +294,11 @@
   line-height: 32px;
   letter-spacing: 0em;
 }
-.s24-bio-builders-project-text31 {
+.s24-bio-builders-project-text28 {
   color: #3b3c4a;
   line-height: 32px;
 }
-.s24-bio-builders-project-text34 {
+.s24-bio-builders-project-text31 {
   color: #3b3c4a;
   line-height: 32px;
 }
@@ -323,7 +308,7 @@
   align-self: stretch;
   border-radius: 12px;
 }
-.s24-bio-builders-project-text38 {
+.s24-bio-builders-project-text35 {
   color: rgb(24, 26, 42);
   height: auto;
   font-size: 24px;
@@ -336,7 +321,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.s24-bio-builders-project-text41 {
+.s24-bio-builders-project-text38 {
   color: rgb(59, 60, 74);
   height: auto;
   font-size: 20px;
@@ -386,14 +371,14 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.s24-bio-builders-project-text47 {
+.s24-bio-builders-project-text44 {
   color: rgb(255, 255, 255);
   font-size: 25px;
 }
-.s24-bio-builders-project-text48 {
+.s24-bio-builders-project-text45 {
   font-family: "Fira Sans";
 }
-.s24-bio-builders-project-text50 {
+.s24-bio-builders-project-text47 {
   color: rgb(255, 255, 255);
   text-align: center;
 }
@@ -410,13 +395,13 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.s24-bio-builders-project-text62 {
+.s24-bio-builders-project-text59 {
   color: rgb(255, 255, 255);
 }
-.s24-bio-builders-project-text63 {
+.s24-bio-builders-project-text60 {
   font-size: 24px;
 }
-.s24-bio-builders-project-text65 {
+.s24-bio-builders-project-text62 {
   color: rgb(255, 255, 255);
   width: 100%;
   text-align: center;
@@ -426,4 +411,86 @@
   height: 318px;
   object-fit: cover;
   padding-left: var(--dl-space-space-fourunits);
+}
+@media(max-width: 1200px) {
+  .s24-bio-builders-project-ellipse1 {
+    left: -22px;
+    bottom: -113px;
+  }
+}
+@media(max-width: 767px) {
+  .s24-bio-builders-project-content {
+    height: 4644px;
+  }
+  .s24-bio-builders-project-ellipse1 {
+    left: -50px;
+  }
+  .s24-bio-builders-project-text {
+    left: 40px;
+  }
+  .s24-bio-builders-project-group3 {
+    right: 0px;
+    bottom: 0px;
+  }
+  .s24-bio-builders-project-content1 {
+    height: 4125px;
+  }
+  .s24-bio-builders-project-oarticle {
+    width: 525px;
+    height: 3742px;
+  }
+  .s24-bio-builders-project-heading {
+    width: 100%;
+  }
+  .s24-bio-builders-project-text07 {
+    width: 100%;
+  }
+}
+@media(max-width: 500px) {
+  .s24-bio-builders-project-nav-bar {
+    height: 106px;
+  }
+  .s24-bio-builders-project-rectangle1 {
+    height: 106px;
+  }
+  .s24-bio-builders-project-group1 {
+    top: 18px;
+    right: -52px;
+  }
+  .s24-bio-builders-project-ellipse1 {
+    top: -32px;
+    left: -43px;
+    width: 106px;
+    height: 98px;
+  }
+  .s24-bio-builders-project-text {
+    top: 7px;
+    left: 50px;
+  }
+  .s24-bio-builders-project-group3 {
+    top: var(--dl-space-space-fourunits);
+    right: 20px;
+    width: 457px;
+    height: 44px;
+  }
+  .s24-bio-builders-project-text02 {
+    top: 0px;
+    left: 129px;
+  }
+  .s24-bio-builders-project-main-content {
+    width: 500px;
+    height: 3687px;
+  }
+  .s24-bio-builders-project-content2 {
+    width: 100%;
+    height: 100%;
+  }
+  .s24-bio-builders-project-oarticle {
+    width: 480px;
+    height: 3643px;
+  }
+  .s24-bio-builders-project-heading {
+    width: 475px;
+    height: 111px;
+  }
 }
